@@ -15,12 +15,17 @@ ol {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 /* Header */
 
 .container {
   width: 1028px;
   padding: 0 15px;
   margin: 0 auto;
+  width: 1158px;
 }
 
 .header {
@@ -95,6 +100,10 @@ ol {
 
 /* Title section */
 
+.inscription-container {
+  padding: 180px 0;
+}
+
 .first-section {
   background-color: #2e2f42;
 }
@@ -107,6 +116,7 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .inscription-button {
@@ -118,6 +128,10 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  max-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .inscription-button:hover,
