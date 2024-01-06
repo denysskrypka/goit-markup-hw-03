@@ -20,6 +20,7 @@ img {
 }
 
 .visually-hidden {
+  display: none;
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
@@ -28,6 +29,9 @@ img {
   margin: -1px;
   padding: 0;
   border: 0;
+  bottom: 0;
+  clip-path: inset(100%);
+  white-space: nowrap;
 }
 
 /* Header */
@@ -113,9 +117,6 @@ img {
 
 .first-section {
   background-color: #2e2f42;
-}
-
-.inscription-container {
   padding-top: 188px;
   padding-bottom: 188px;
 }
