@@ -34,6 +34,18 @@ img {
   white-space: nowrap;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 
 .container {
@@ -148,6 +160,7 @@ img {
   border-radius: 4px;
   margin: 0 auto;
   border: none;
+  margin-top: 48px;
 }
 
 .inscription-button:hover,
